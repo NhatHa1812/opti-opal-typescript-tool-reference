@@ -131,4 +131,4 @@ app.listen(PORT, () => {
   console.log(`Discovery endpoint automatically available at http://localhost:${PORT}/discovery`);
 });
 
-export { app };
+export default app;
